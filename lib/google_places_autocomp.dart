@@ -1,3 +1,5 @@
+library google_places_autocomp;
+
 import 'dart:io';
 
 import 'package:flutter/foundation.dart';

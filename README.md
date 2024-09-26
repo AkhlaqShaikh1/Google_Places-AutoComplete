@@ -11,29 +11,60 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## Google Places Autocomplete
+
+The `google_places_autocomp` package provides an easy-to-use interface for integrating Google Places Autocomplete functionality into your Flutter applications. This package simplifies the process of adding location-based search capabilities, allowing users to search for places and retrieve detailed information about them.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Autocomplete search for places using Google Places API.
+- Retrieve detailed information about selected places.
+- Customizable search parameters and UI components.
+- Easy integration with existing Flutter applications.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To start using the `google_places_autocomp` package, you need to have a Google Cloud project with the Places API enabled. Follow these steps:
+
+1. Create a new project on the [Google Cloud Console](https://console.cloud.google.com/).
+2. Enable the Places API for your project.
+3. Generate an API key for accessing the Places API.
+4. Add the API key to your Flutter application.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Here is a basic example of how to use the `google_places_autocomp` package:
 
 ```dart
-const like = 'sample';
+import 'package:google_places_autocomp/google_places_autocomp.dart';
+
+void main() {
+    runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+    @override
+    Widget build(BuildContext context) {
+        return MaterialApp(
+            home: Scaffold(
+                appBar: AppBar(
+                    title: Text('Google Places Autocomplete Example'),
+                ),
+                body: GooglePlacesAutoCompleteTextFormField(
+                    googleAPIKey: 'YOUR_API_KEY',
+                    textEditingController : controller,
+
+                ),
+            ),
+        );
+    }
+}
 ```
+
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+For more information about the `google_places_autocomp` package, visit the [official documentation](https://pub.dev/packages/google_places_autocomp). If you encounter any issues or have suggestions for improvements, please file an issue on the [GitHub repository](https://github.com/yourusername/google_places_autocomp/issues). Contributions are welcome!
+
+For further assistance, you can reach out to the package authors via the contact information provided in the repository.
+
