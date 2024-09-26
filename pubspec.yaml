@@ -1,7 +1,7 @@
 name: google_places_autocomp
-description: "A new Flutter package project."
+description: "A Flutter package for Google Places Autocomplete."
 version: 0.0.1
-homepage:
+homepage: "https://github.com/AkhlaqShaikh1/Google_Places-AutoComplete"
 
 environment:
   sdk: ^3.5.0

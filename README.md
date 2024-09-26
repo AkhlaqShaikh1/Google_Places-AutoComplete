@@ -61,10 +61,8 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-
 ## Additional information
 
-For more information about the `google_places_autocomp` package, visit the [official documentation](https://pub.dev/packages/google_places_autocomp). If you encounter any issues or have suggestions for improvements, please file an issue on the [GitHub repository](https://github.com/yourusername/google_places_autocomp/issues). Contributions are welcome!
+For more information about the `google_places_autocomp` package, visit the [official documentation](https://pub.dev/packages/google_places_autocomp). If you encounter any issues or have suggestions for improvements, please file an issue on the [GitHub repository](https://github.com/AkhlaqShaikh1/Google_Places-AutoComplete/issues). Contributions are welcome!
 
 For further assistance, you can reach out to the package authors via the contact information provided in the repository.
-
